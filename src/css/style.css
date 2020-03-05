@@ -1,11 +1,12 @@
 html {
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .worship button {
-    background-color: red;
-    color: #000000;
+    background-color: maroon;
+    color: aliceblue;
     padding: 45px;
     text-align: center;
     text-decoration: none;
@@ -16,23 +17,37 @@ html {
 
 .header {
     text-align: center;
-    border: red;
+    border: maroon;
     border-width: 2px;
     border-style: groove;
 }
 
 .worship {
-    border: red;
+    border: maroon;
     text-align: center;
     border-width: 2px;
     border-style: groove;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .results {
-    border: red;
+    border: maroon;
     border-width: 2px;
     border-style: groove;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.results button {
+    background-color: maroon;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 2rem;
 }

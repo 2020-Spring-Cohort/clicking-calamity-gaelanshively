@@ -18,18 +18,24 @@
             <br>
             <br>
             <br>
-            <button id="clicker" onclick="user.countClick()" type="button">Worship the Old Ones!</button>
+            <button id="clicker" onclick="user.countClick(user)" type="button">Worship the Old Ones!</button>
         </section>
         <section class="results">
+            <br>
             <br>
             You have created <span id= "displayCount">0</span> willing servants of the Great Old Ones.
             <br>
             <br>
+            <button id="companion" onclick="user.buyNewCompanion()" type="button">Sacrifice <span id="displayCompanionCost">100</span> followers for a  monstrous wretch!</button>
             <br>
-            <button id="companion" onclick="user.buyNewCompanion()" type="button">Sacrifice <span id="displayCompanionCost">100</span> followers for a spawn!</button>
+            <br>
+            <p>You have <span id="displayCompanionCount">0</span> foul spawns to help you.</p>
             <br>
             <br>
-            <p>You have <span id="displayCompanionCount">0</span> mutated spawns to help you.</p>
+            <button id="multiplier" onclick="user.buyNewMultiplier()" type="button">Sacrifice <span id="displayMultiplierCost">10</span> followers for a dark mutation!</button>
+            <br>
+            <br>
+            <p>You have <span id="displayMultiplierCount">0</span> hideous mutations.</p>
 
         </section>
     </div>
