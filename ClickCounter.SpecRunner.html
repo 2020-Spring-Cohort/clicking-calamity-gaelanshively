@@ -19,7 +19,23 @@
    <script src="src/js/ClickCounter.js"></script>
    <!-- include spec files here... -->
    <script src="spec/js/ClickCounter.spec.js"></script>
-   <div class="displayCount"></div>
-   <div class="displayCompanionCount"></div>
+   <section class="worship">
+
+    <button id="clicker" onclick="user.countClick(user)" type="button">Worship the Old Ones!</button>
+</section>
+<section class="results">
+
+ <span id= "displayCount">0</span>
+    <button id="companion" onclick="user.buyNewCompanion()" type="button">Sacrifice <span id="displayCompanionCost">100</span> followers for a  monstrous wretch!</button>
+
+    <p>You have <span id="displayCompanionCount">0</span> foul spawns to help you.</p>
+
+    <button id="multiplier" onclick="user.buyNewMultiplier()" type="button">Sacrifice <span id="displayMultiplierCost">10</span> followers for a dark mutation!</button>
+
+    <p>You have <span id="displayMultiplierCount">0</span> hideous mutations.</p>
+
+    <button id="reset" onclick="reset()" type="button">Succumb to your weakness!</button>
+
+</section>
 </body>
 </html>

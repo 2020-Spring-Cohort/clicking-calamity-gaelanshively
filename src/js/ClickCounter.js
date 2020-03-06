@@ -47,16 +47,17 @@ class ClickCount {
 let user = new ClickCount;
 let timer = window.setInterval(user.autoClick, 1000, user);
 
-function reset(){
+function reset(user){
     user.clickCount = 0;
     user.clickValue = 1;
     user.companionCount = 0;
     user.companionCost = 100;
     user.multiplierCount = 0;
-    user.multiplierCost = 0;
+    user.multiplierCost = 10;
     document.getElementById("displayCount").innerText = user.clickCount;
     document.getElementById("displayCompanionCount").innerText = user.companionCount;
     document.getElementById("displayCompanionCost").innerText = user.companionCost;
     document.getElementById("displayMultiplierCount").innerText = user.multiplierCount;
     document.getElementById("displayMultiplierCost").innerText = user.multiplierCost;
+    // window.alert("You have been driven insane by the burden of your dark secrets!  Try again!")
 }
