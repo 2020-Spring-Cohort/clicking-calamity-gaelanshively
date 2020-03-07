@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>ClickCounter.js SpecRunner</title>
+    <meta charset="utf-8">
+    <title>ClickCounter.js SpecRunner</title>
 
-  <link rel="shortcut icon" type="image/png" href="lib/jasmine-3.5.0/jasmine_favicon.png">
-  <link rel="stylesheet" href="lib/jasmine-3.5.0/jasmine.css">
+    <link rel="shortcut icon" type="image/png" href="lib/jasmine-3.5.0/jasmine_favicon.png">
+    <link rel="stylesheet" href="lib/jasmine-3.5.0/jasmine.css">
 
-  <script src="lib/jasmine-3.5.0/jasmine.js"></script>
-  <script src="lib/jasmine-3.5.0/jasmine-html.js"></script>
-  <script src="lib/jasmine-3.5.0/boot.js"></script>
+    <script src="lib/jasmine-3.5.0/jasmine.js"></script>
+    <script src="lib/jasmine-3.5.0/jasmine-html.js"></script>
+    <script src="lib/jasmine-3.5.0/boot.js"></script>
 
- 
+
 </head>
 
 <body>
-   <!-- include source files here... -->
-   <script src="src/js/ClickCounter.js"></script>
-   <!-- include spec files here... -->
-   <script src="spec/js/ClickCounter.spec.js"></script>
-   <section class="worship">
+    <!-- include source files here... -->
+    <script src="src/js/ClickCounter.js"></script>
+    <!-- include spec files here... -->
+    <script src="spec/js/ClickCounter.spec.js"></script>
+    <section class="worship">
 
-    <button id="clicker" onclick="user.countClick(user)" type="button">Worship the Old Ones!</button>
-</section>
-<section class="results">
+        <button id="clicker" onclick="user.countClick(user)" type="button">Worship the Old Ones!</button>
+    </section>
+    <section class="results">
 
- <span id= "displayCount">0</span>
-    <button id="companion" onclick="user.buyNewCompanion()" type="button">Sacrifice <span id="displayCompanionCost">100</span> followers for a  monstrous wretch!</button>
+        <span id= "displayCount">0</span>
+        <button id="companion" onclick="user.buyNewCompanion()" type="button">Sacrifice <span id="displayCompanionCost">100</span> followers for a monstrous wretch!</button>
 
-    <p>You have <span id="displayCompanionCount">0</span> foul spawns to help you.</p>
+        <p>You have <span id="displayCompanionCount">0</span> foul spawns to help you.</p>
 
-    <button id="multiplier" onclick="user.buyNewMultiplier()" type="button">Sacrifice <span id="displayMultiplierCost">10</span> followers for a dark mutation!</button>
+        <button id="multiplier" onclick="user.buyNewMultiplier()" type="button">Sacrifice <span id="displayMultiplierCost">10</span> followers for a dark mutation!</button>
 
-    <p>You have <span id="displayMultiplierCount">0</span> hideous mutations.</p>
+        <p>You have <span id="displayMultiplierCount">0</span> hideous mutations.</p>
 
-    <button id="reset" onclick="reset()" type="button">Succumb to your weakness!</button>
+        <button id="reset" onclick="reset()" type="button">Succumb to your weakness!</button>
 
-</section>
+    </section>
 </body>
+
 </html>

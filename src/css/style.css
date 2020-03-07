@@ -13,7 +13,7 @@ html {
     border: none;
     display: inline-block;
     font-size: 40px;
-    height:25rem;
+    height: 25rem;
 }
 
 .header {
@@ -49,6 +49,6 @@ html {
     font-size: 20px;
 }
 
-h1{
+h1 {
     font-size: 2rem;
 }

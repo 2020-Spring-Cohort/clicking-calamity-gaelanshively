@@ -25,8 +25,8 @@ class ClickCount {
         }
     }
 
-    buyNewMultiplier(){
-        if(this.clickCount >= this.multiplierCost){
+    buyNewMultiplier() {
+        if (this.clickCount >= this.multiplierCost) {
             this.clickCount = this.clickCount - this.multiplierCost;
             this.multiplierCost = this.multiplierCost * 1.3;
             this.multiplierCount++;
@@ -41,13 +41,13 @@ class ClickCount {
         user.clickCount = user.clickCount + (user.clickValue * user.companionCount);
         document.getElementById("displayCount").innerHTML = Math.round(user.clickCount);
     };
-    
+
 }
 
 let user = new ClickCount;
 let timer = window.setInterval(user.autoClick, 1000, user);
 
-function reset(user){
+function reset(user) {
     user.clickCount = 0;
     user.clickValue = 1;
     user.companionCount = 0;
@@ -59,5 +59,5 @@ function reset(user){
     document.getElementById("displayCompanionCost").innerText = user.companionCost;
     document.getElementById("displayMultiplierCount").innerText = user.multiplierCount;
     document.getElementById("displayMultiplierCost").innerText = user.multiplierCost;
-    // window.alert("You have been driven insane by the burden of your dark secrets!  Try again!")
+    window.alert("You have been driven insane by the burden of your dark secrets!  Try again!")
 }
