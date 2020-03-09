@@ -2,6 +2,11 @@ html {
     background-color: rgb(50, 50, 50);
     color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+a{
+    color: aliceblue;
 }
 
 .worship button {
