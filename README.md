@@ -39,12 +39,10 @@ You have been contracted by Coo Coo Computing Challengers to take a concept, Cli
   - [x] The first _Collective Culmination Compounder_ increases the value of a click from `1x` to `1.2x`.
   - [x] Every subsequent _Collective Culmination Compounder_ increases the value of a click exponentially.  For example, the second _Collective Culmination Compounder_ will increase the value of a click to `1.2x * 1.2x` or `1.44x`.
 - [x] You must be able to reset the game state.  This action should reset the game to zero clicks, zero _Clicking Companions_, and zero _Collective Culmination Compounders_.
-- [ ] This website also has some other requirements:
-  - [ ] Use semantic html and BEM when writing your html so that in the future we have a solid base to expand upon.
-  - [ ] You must have a header for this page.  It should have a few of the following features:
-    - [ ] It should have a hamburger button that expands a navigation menu.
-    - [ ] A navigation menu that when clicked will expand sections about:
-      - [ ] Coo Coo Computing Challengers
-      - [ ] The inspiration for this game, Cookie Clicker.
-      - [ ] Your contact info.
+- [x] This website also has some other requirements:
+  - [x] Use semantic html and BEM when writing your html so that in the future we have a solid base to expand upon.
+  - [x] You must have a header for this page.  It should have a few of the following features:
+      - [x] Coo Coo Computing Challengers
+      - [x] The inspiration for this game, Cookie Clicker.
+      - [x] Your contact info.
   - [ ] Deploy your project so that it is reachable on the internet.
